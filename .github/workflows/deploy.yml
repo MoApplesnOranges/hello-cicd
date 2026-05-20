@@ -20,13 +20,13 @@ jobs:
             sudo apt-get install -y -q nginx
 
             sudo tee /var/www/html/index.html > /dev/null <<'EOF'
-            # <!DOCTYPE html>
-            # <html>
-            #   <head><title>Hello World</title></head>
-            #   <body>
-            #     <h1>Hello World from EC2!</h1>
-            #     <p>Deployed via GitHub Actions.</p>
-            #   </body>
+            <!DOCTYPE html>
+            <html>
+              <head><title>Hello World</title></head>
+              <body>
+                <h1>Hello World from EC2 and Tampa!</h1>
+                <p>Deployed via GitHub Actions.</p>
+              </body>
             # </html>
             EOF
 
